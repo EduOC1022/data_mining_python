@@ -12,4 +12,4 @@ III. Modifique a string correspondente ao nome do arquivo da núvem de palavras 
 IV. Rode o código.
 
 # Obs: 
-- A imagem .png será gerada dentro da pasta geral do projeto.
+- O arquivo .png com a núvem de palavras será gerado dentro da pasta geral do projeto.
