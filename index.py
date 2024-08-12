@@ -10,7 +10,7 @@ from pypdf import PdfReader
 textoInteiro = ''
 
 # Construindo o caminho absoluto para o arquivo PDF
-pdf_path = os.path.join(os.path.dirname(__file__), 'nome-do-pdf')
+pdf_path = os.path.join(os.path.dirname(__file__), 'CURRICULO_CIÊNCIA_DA_INFORMAÇÃO_20161.pdf')
 
 # criando um objeto PdfReader
 reader = PdfReader(pdf_path)
@@ -57,6 +57,6 @@ freq = freq.most_common(10)
 print(freq)
 
 # GERANDO A NUVEM DE PALAVRAS
-nuvemDePalavras = WordCloud(background_color = 'white', stopwords = stopWords, height = 1080, width = 1080, max_words = 100)
+nuvemDePalavras = WordCloud(background_color = 'black', stopwords = stopWords, height = 1080, width = 1080, max_words = 100)
 nuvemDePalavras.generate(' '.join(palavraSemStopWords))
 nuvemDePalavras.to_file('nome-da-nuvem.png')
